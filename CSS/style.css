@@ -1,0 +1,401 @@
+
+
+
+
+#title {
+    background-color: lightslategray;
+}
+
+.container-fluid {
+    padding: 1% 15% ;
+    background-color:lightslategray;
+}
+
+.container {
+    background-color: bisque;
+}
+
+.container1 {
+    background-color: bisque;
+    border: 1px solid;
+    width: 300px;
+    height: 100px;
+    position: relative;
+}
+
+.container2 {
+    background-color: rgb(238, 201, 157);
+    left: 20px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.container3 {
+    background-color: rgb(255, 185, 100);
+    left: 40px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.container4 {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+
+}
+
+#h10 {
+  background-color: #1e1e1e;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+
+    height: 20px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    
+}
+
+h6 {
+    text-align: center;
+}
+
+#cta {
+    text-align: center;
+}
+
+#ftr {
+    text-align: center;
+}
+
+#row {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    
+}
+
+#karuzela {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: lightslategray;
+    
+}
+
+.zdjecia-port {
+    width: 10%;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.carousel-item {
+    height: 1000px;
+    width: auto;
+}
+
+#stopka {
+    height: 10px;
+}
+
+#stopka1 {
+    height: 40px;
+    background-color: lightslategray;
+}
+
+#stopka2 {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+#zindex {
+    background-color: aquamarine;
+}
+
+.img-1 {
+    width: 60%;
+    height: 100%;
+}
+
+.img-2 {
+    width: 60%;
+    height: 100%;
+}
+
+.img-3 {
+    width: 60%;
+    height: 100%;
+}
+
+.img-4 {
+  width: 60%;
+  height: 100%;
+}
+
+.img-5 {
+  width: 60%;
+  height: 100%;
+}
+
+.img-6 {
+  width: 60%;
+  height: 100%;
+}
+
+.profile-picture1 {
+  width: 200%;
+  height: 200%;
+  text-align: center;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .cube {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+  }
+  
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+  }
+  
+  .front {
+    transform: translateZ(150px);
+  }
+  
+  .back {
+    transform: translateZ(-150px) rotateY(180deg);
+  }
+  
+  .top {
+    transform: rotateX(-90deg) translateZ(150px);
+  }
+  
+  .bottom {
+    transform: rotateX(90deg) translateZ(150px);
+  }
+  
+  .left {
+    transform: rotateY(-90deg) translateZ(150px);
+  }
+  
+  .right {
+    transform: rotateY(90deg) translateZ(150px);
+  }
+  
+  .cube:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .cube.clicked {
+    animation: rotate 0.8s forwards;
+  }
+  
+  .front iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotateY(0);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+  }
+  .neon-tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #1e1e1e;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 60px #fff, 0 0 80px #fff, 0 0 90px #fff;
+  }
+  
+  .neon-tile {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: #f0f;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.3);
+    animation: neon 1.5s ease-in-out infinite alternate, color-change 10s linear infinite;
+  }
+  
+  .tile-1 {
+    animation-delay: 0s;
+  }
+  
+  .tile-2 {
+    animation-delay: 1s;
+  }
+  
+  .tile-3 {
+    animation-delay: 2s;
+  }
+  
+  .tile-4 {
+    animation-delay: 3s;
+  }
+  
+  .tile-5 {
+    animation-delay: 4s;
+  }
+  
+  .tile-6 {
+    animation-delay: 5s;
+  }
+  
+  .tile-7 {
+    animation-delay: 6s;
+  }
+  
+  .tile-8 {
+    animation-delay: 7s;
+  }
+  
+  .tile-9 {
+    animation-delay: 8s;
+  }
+  
+  .tile-10 {
+    animation-delay: 9s;
+  }
+  
+  @keyframes neon {
+    from { box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.3); }
+    to { box-shadow: inset 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 60px #f0f, 0 0 80px #f0f, 0 0 90px #f0f; }
+  }
+  
+  @keyframes color-change {
+    0% { background-color: #f0f; }
+    25% {
+      background-color: #0ff; }
+      50% { background-color: #0f0; }
+      75% { background-color: #ff0; }
+      100% { background-color: #f0f; }
+    }
+    
+    .neon-tile:active {
+      animation: neon-click 1s ease-in-out;
+    }
+    
+    @keyframes neon-click {
+      0% { box-shadow: inset 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 60px #f0f, 0 0 80px #f0f, 0 0 90px #f0f; }
+      50% { box-shadow: inset 0 0 10px #f0f, 0 0 20px #f0f, 0 0 30px #f0f, 0 0 60px #fff, 0 0 80px #fff, 0 0 90px #fff; }
+      100% { box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.3); }
+    }
+
+
+    .light {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: linear-gradient(90deg, #ff00ff, #00ff00);
+      box-shadow: 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff, 0 0 75px #fff, 0 0 100px #fff, 0 0 150px #fff, 0 0 200px #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .light::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: flicker 3s infinite alternate;
+    }
+    
+    @keyframes flicker {
+      0% {
+        background-color: #ff00ff;
+      }
+      25% {
+        background-color: #00ffff;
+      }
+      50% {
+        background-color: #ff0000;
+      }
+      75% {
+        background-color: #00ff00;
+      }
+      100% {
+        background-color: #ffff00;
+      }
+    }
+    
+    .light.active::before {
+      animation: none;
+    }
+    
+    
+        .light:nth-child(2n) {
+          background-color: #ff4d4d;
+        }
+    
+        .light.active {
+          box-shadow: 
+            0 0 10px #a3b1ff, 
+            0 0 20px #a3b1ff, 
+            0 0 30px #a3b1ff, 
+            0 0 40px #a3b1ff, 
+            0 0 70px #a3b1ff, 
+            inset 0 0 10px #fff, 
+            inset 20px 0 80px #fff,
+            inset -20px 0 80px #fff,
+            0 0 20px #fff, 
+            0 0 40px #fff, 
+            0 0 60px #fff, 
+            0 0 80px #fff, 
+            0 0 120px #fff, 
+            inset 0 0 20px #4d4dff, 
+            inset 20px 0 80px #4d4dff,
+            inset -20px 0 80px #4d4dff;
+        }
+    
+        #sound {
+          display: none;
+        }
+    
