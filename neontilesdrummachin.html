@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Neon Tiles</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .tiles-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+      }
+
+      .tile {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        animation-name: neon;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        cursor: pointer;
+      }
+
+      @keyframes neon {
+        0% {
+          box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        }
+        50% {
+          box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 40px #fff7b5, 0 0 80px #ffd700, 0 0 120px #ff7f00, 0 0 160px #ff2400;
+        }
+        100% {
+          box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tiles-container">
+      <div class="tile" id="tile-1">
+        <audio id="sound-1">
+          <source src="assets/note1.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-2">
+        <audio id="sound-2">
+          <source src="assets/note2.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-3">
+        <audio id="sound-3">
+          <source src="assets/note3.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-4">
+        <audio id="sound-4">
+          <source src="assets/note4.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-5">
+        <audio id="sound-5">
+          <source src="assets/note5.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-6">
+        <audio id="sound-6">
+          <source src="assets/note6.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-7">
+        <audio id="sound-7">
+          <source src="assets/note7.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-8">
+        <audio id="sound-8">
+          <source src="assets/note8.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-9">
+        <audio id="sound-9">
+          <source src="assets/note9.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-10">
+        <audio id="sound-10">
+          <source src="assets/note10.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-11">
+        <audio id="sound-11">
+          <source src="assets/note11.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-12">
+        <audio id="sound-12">
+          <source src="assets/note12.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-13">
+        <audio id="sound-13">
+          <source src="assets/note13.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-14">
+        <audio id="sound-14">
+          <source src="assets/note14.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-15">
+        <audio id="sound-15">
+          <source src="assets/note15.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-16">
+        <audio id="sound-16">
+          <source src="assets/note16.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-17">
+        <audio id="sound-17">
+          <source src="assets/note17.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-18">
+        <audio id="sound-18">
+          <source src="assets/note18.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-19">
+        <audio id="sound-19">
+          <source src="assets/note19.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-20">
+        <audio id="sound-20">
+          <source src="assets/note20.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-21">
+        <audio id="sound-21">
+          <source src="assets/note21.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-22">
+        <audio id="sound-22">
+          <source src="assets/note22.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-23">
+        <audio id="sound-23">
+          <source src="assets/note23.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-24">
+        <audio id="sound-24">
+          <source src="assets/note24.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-25">
+        <audio id="sound-25">
+          <source src="assets/note25.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-26">
+        <audio id="sound-26">
+          <source src="assets/note26.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-27">
+        <audio id="sound-27">
+          <source src="assets/note27.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-28">
+        <audio id="sound-28">
+          <source src="assets/note28.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-29">
+        <audio id="sound-29">
+          <source src="assets/note29.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-30">
+        <audio id="sound-30">
+          <source src="assets/note30.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-31">
+        <audio id="sound-31">
+          <source src="assets/note31.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-32">
+        <audio id="sound-32">
+          <source src="assets/note32.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-33">
+        <audio id="sound-33">
+          <source src="assets/note33.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-34">
+        <audio id="sound-34">
+          <source src="assets/note34.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-35">
+        <audio id="sound-35">
+          <source src="assets/note35.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-36">
+        <audio id="sound-36">
+          <source src="assets/note36.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-36">
+        <audio id="sound-36">
+          <source src="assets/note36.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-37">
+        <audio id="sound-37">
+          <source src="assets/note37.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-38">
+        <audio id="sound-38">
+          <source src="assets/note38.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-39">
+        <audio id="sound-39">
+          <source src="assets/note39.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-40">
+        <audio id="sound-40">
+          <source src="assets/note40.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="tile" id="tile-41">
+        <audio id="sound-41">
+          <source src="assets/note41.wav" type="audio/mpeg">
+        </audio>
+      </div>
+      
+
+      <!-- add more tiles with different sound files here -->
+    </div>
+
+    <script>
+      const tiles = document.querySelectorAll('.tile');
+
+      tiles.forEach(tile => {
+        tile.addEventListener('click', () => {
+          const soundId = tile.id.replace('tile', 'sound');
+          const sound = document.getElementById(soundId);
+          sound.currentTime = 0;
+          sound.play();
+        });
+
+        tile.style.backgroundColor = getRandomColor();
+      });
+
+      function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+    </script>
+    <h5>2023C Łukasz Macioszczyk</h5>
+  </body>
+</html>
